@@ -1,0 +1,30 @@
+CRITICAL - 2023-07-15 04:14:11 --> Invalid file: "hal_depan_web.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hal_depan_web.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hal_depan_web', [], true)
+ 3 APPPATH\Controllers\control_project.php(8): view('hal_depan_web')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\control_project->hal_pertama()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\control_project))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4Composer\\public\\index.php')
+CRITICAL - 2023-07-15 05:14:48 --> Invalid file: "omah.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('omah.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('omah', [], true)
+ 3 APPPATH\Controllers\control_project.php(50): view('omah')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\control_project->hal_home()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\control_project))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4Composer\\public\\index.php')
+CRITICAL - 2023-07-15 11:04:14 --> Invalid file: "omah.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('omah.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('omah', [], true)
+ 3 APPPATH\Controllers\control_project.php(8): view('omah')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\control_project->hal_pertama()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\control_project))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4Composer\\public\\index.php')
