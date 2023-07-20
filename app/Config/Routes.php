@@ -33,6 +33,18 @@ $routes->set404Override();
 //$routes->get('/', 'login::index');
 //$routes->get('/login', 'login::index');
 //$route['login'] = 'login/index';
+
+$routes->get('/hal_depan_web', 'control_project::hal_pertama');
+$routes->get('/product', 'control_project::hal_produk');
+$routes->get('/about', 'control_project::hal_about');
+$routes->get('/contact', 'control_project::hal_contact');
+$routes->get('/account', 'control_project::hal_account');
+$routes->get('/daftar', 'control_project::hal_daftar');
+$routes->get('/belanja', 'control_project::hal_belanja');
+$routes->post('/account/process', 'control_project::process');
+$routes->post('/daftar/register', 'control_project::register');
+$routes->post('/belanja/submit', 'BelanjaController::submit');
+
 $routes->get('/', 'Home::index');
 $routes->get('/karyawan', 'Karyawan::index');
 
@@ -45,16 +57,7 @@ $routes->post('/karyawan/delete', 'Karyawan::delete');
 $routes->get('/karyawan/edit', 'Karyawan::edit');
 $routes->post('/karyawan/update', 'Karyawan::update');
 
-$routes->get('/hal_depan_web', 'control_project::hal_pertama');
-$routes->get('/product', 'control_project::hal_produk');
-$routes->get('/about', 'control_project::hal_about');
-$routes->get('/contact', 'control_project::hal_contact');
-$routes->get('/account', 'control_project::hal_account');
-$routes->get('/daftar', 'control_project::hal_daftar');
-$routes->get('/belanja', 'control_project::hal_belanja');
-$routes->post('/account/process', 'control_project::process');
-$routes->post('/daftar/register', 'control_project::register');
-$routes->post('/belanja/submit', 'BelanjaController::submit');
+
 
 $routes->get('/home_PK2', 'control_project::hal_home_pk2');
 $routes->get('/about_PK2', 'control_project::hal_about_pk2');
