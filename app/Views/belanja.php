@@ -177,14 +177,14 @@
 			<div class = "formulir">
 			<h1>Belanja</h1>
 				<form action="<?= base_url('/belanja/submit') ?>" method = "POST">
-				<input type= "text" name="name" placeholder="Username" required>
-				<input type= "email" name="email" placeholder="Email" required>
+				<input type= "text" name="name" placeholder="Username" value="<?= $username ?>" required>
+				<input type= "email" name="email" placeholder="Email" value="<?= $email ?>" required>
 				<table width=200px>
 				<tr>
-				<td>Web kantor</td><td><input type='checkbox' name='web_pertama' value="web_pertama"/></td>
+				<td>Web perabotan rumah tangga</td><td><input type='checkbox' name='web_pertama' value="web_pertama"/></td>
 				</tr>
 				<tr>
-				<td>Web makan</td><td><input type='checkbox' name='web_kedua' value="web_kedua" /></td>
+				<td>Web pakaian</td><td><input type='checkbox' name='web_kedua' value="web_kedua" /></td>
 				</tr>
 				<tr>
 				<td>Web sekolah</td><td><input type='checkbox' name='web_ketiga' value="web_ketiga" /></td>

@@ -11,7 +11,7 @@ class control_project extends BaseController
 	public function hal_produk()
     {
 		if (! session('logged_in')) {
-            return redirect()->to('/daftar'); 
+            return redirect()->to('/account'); 
         }else{
         $email = session('email');
 
@@ -20,28 +20,41 @@ class control_project extends BaseController
     }
 	public function hal_about()
     {
-        return view('about');
+		$email = session('email');
 		echo "Selamat datang: " . $email;
+        return view('about');
+		
     }
 	public function hal_contact()
     {
-        return view('contact');
+		
+        $email = session('email');
 		echo "Selamat datang: " . $email;
+	return view('contact');
+		
     }
 	public function hal_account()
     {
-        return view('account');
+       
+        $email = session('email');
 		echo "Selamat datang: " . $email;
+		return view('account');
+		
     }
 	public function hal_daftar()
     {
-        return view('daftar');
-		echo "Selamat datang: " . $email;
+       
+		
+		return view('daftar');
+		
     }
 	public function hal_belanja()
     {
-        return view('belanja');
+		$email = session('email');
+		 $username = session('name');
 		echo "Selamat datang: " . $email;
+        return view('belanja', ['email' => $email, 'username' => $username]);
+		
     }
 	
     public function register()
@@ -102,9 +115,10 @@ class control_project extends BaseController
             if (password_verify($password, $dataUser->password)) {
                 session()->set([
                     'email' => $dataUser->email,
-                   
+					'name' => $dataUser->username,
                     'logged_in' => TRUE
                 ]);
+				$username = $dataUser->username;
                 return redirect()->to(base_url('/hal_depan_web'));
             } else {
                 session()->setFlashdata('error', 'Email & Password Salah');

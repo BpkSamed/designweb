@@ -167,22 +167,28 @@
 			</div>
 			<div class = "isi">
 			<div class = "produk1">
-			Website penjualan makanan
-			<br><img src = "/gambar_project/desain1.png" width="30px" height = "30px">
+			Website penjualan barang rumah tangga
+			<br><img src = "/gambar_project/desain_web_perabotan_rumahtangga.png" width="30px" height = "30px">
 			</div>
 			<div class = "teks_produk1">
-				Dalam CSS aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-				<br>a
+				Produk desain website penjualan barang rumah tangga adalah platform digital yang secara khusus dirancang untuk memudahkan bisnis barang rumah tangga dalam menjual produk mereka secara online. 
+				Website ini menawarkan katalog lengkap berisi berbagai barang rumah tangga dengan deskripsi, foto, dan harga yang jelas, serta menyediakan fitur pencarian dan pengelompokan berdasarkan kategori untuk mempermudah pelanggan dalam menemukan produk yang dibutuhkan. 
+				Pengguna dapat dengan mudah menambahkan barang ke dalam keranjang belanja, memilih opsi pembayaran yang aman, serta memilih opsi pengiriman atau pengambilan. Ulasan dan rating dari pelanggan membantu calon pembeli dalam membuat keputusan berbelanja yang lebih tepat, 
+				sementara integrasi media sosial membantu memperluas jangkauan dan eksposur merek dan produk. Tujuan utama dari desain website ini adalah memberikan pengalaman berbelanja yang praktis dan efisien bagi pelanggan, serta membantu bisnis barang rumah tangga meningkatkan penjualan mereka secara online.
+				<br>
 			</div>
 			</div>
 			<div class= "isi">
 			<div class = "produk1">
-			Website penjualan makanan
-			<br><img src = "/gambar_project/desain2.jpeg" width="30px" height = "30px">
+			Website penjualan pakaian
+			<br><img src = "/gambar_project/desain_web_pakaian.png" width="30px" height = "30px">
 			</div>
 			<div class = "teks_produk1">
-				Dalam CSS aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-				<br>a
+				Produk desain website penjualan pakaian adalah sebuah platform digital yang dirancang untuk memfasilitasi bisnis pakaian dalam menjual produk mereka secara online. 
+				Website ini menampilkan katalog pakaian lengkap dengan deskripsi, foto, dan harga yang jelas, serta menyediakan fitur pencarian dan pengelompokan berdasarkan kategori untuk memudahkan pelanggan dalam menemukan produk yang diinginkan. 
+				Pelanggan dapat dengan mudah menambahkan pakaian ke dalam keranjang belanja, memilih metode pembayaran yang aman, dan memilih opsi pengiriman atau pengambilan. Ulasan dan rating membantu calon pembeli dalam membuat keputusan, dan integrasi media sosial memperluas eksposur merek dan produk. 
+				Tujuan dari desain website ini adalah untuk memberikan pengalaman belanja yang menyenangkan dan efisien bagi pelanggan serta membantu bisnis pakaian untuk meningkatkan penjualan mereka secara online.
+				<br>
 			</div>
 			</div>
 			<div class= "isi">
@@ -191,8 +197,11 @@
 			<br><img src = "/gambar_project/desain4.png" width="30px" height = "30px">
 			</div>
 			<div class = "teks_produk1">
-				Dalam CSS aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-				<br>a
+				Website penjualan makanan adalah platform digital yang menawarkan beragam makanan dengan tampilan menarik dan responsif, katalog lengkap, fitur pencarian, dan kategori makanan. 
+				Pelanggan dapat dengan mudah menyesuaikan pesanan, memilih metode pembayaran yang aman, serta memilih opsi pengiriman atau pengambilan. 
+				Ulasan dan rating membantu calon pembeli dalam memilih makanan dengan percaya diri, sementara integrasi media sosial membantu mempromosikan produk dengan lebih luas. 
+				Tujuan website ini adalah memberikan pengalaman berbelanja yang mudah dan efisien bagi pelanggan, serta membantu bisnis makanan meningkatkan penjualan secara online.
+				<br>
 			</div>
 			</div>
 		</div>
