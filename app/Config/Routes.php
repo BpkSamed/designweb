@@ -45,8 +45,7 @@ $routes->post('/account/process', 'control_project::process');
 $routes->post('/daftar/register', 'control_project::register');
 $routes->post('/belanja/submit', 'BelanjaController::submit');
 
-$routes->get('/', 'Home::index');
-$routes->get('/karyawan', 'Karyawan::index');
+
 
 $routes->get('/karyawan/add', 'Karyawan::add');
 $routes->post('/karyawan/create', 'Karyawan::create');
