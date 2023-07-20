@@ -29,4 +29,4 @@ class KaryawanSeeder extends Seeder
         $this->db->table('karyawan3')->insertBatch($data);
     }
     }
-}
+
